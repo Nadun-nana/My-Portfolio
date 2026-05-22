@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://nadunnanayakkara.github.io/" 
+title: Nadun Nanayakkara
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -12,30 +12,27 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
+        - name: About
+          url: about/
+          weight: 1
+        - name: Experience
+          url: experience/
           weight: 2
-        - name: Courses
-          url: courses/
+        - name: Education
+          url: education/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        - name: Projects
+          url: projects/
+          weight: 4
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    description: "Portfolio of Nadun Demiththa Nanayakkara – Junior Software Engineer & Graphic Designer from Sri Lanka. Passionate about web development, React, and cloud technologies."
+    author: Nadun Demiththa Nanayakkara
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
-    defaultTheme: light
+    defaultTheme: dark
     hideFooter: false
-    disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
@@ -44,60 +41,40 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["projects"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
     ShowWordCount: false
     UseHugoToc: true
     comments: false
-    math: true
+    math: false
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
+          title: Nadun Demiththa Nanayakkara
+          subtitle: "Junior Software Engineer & Graphic Designer | React · HTML/CSS/JS · AWS · MySQL | Passionate about building efficient, scalable, and innovative software solutions."
+          imageUrl: "static/picture.png"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: About Me
+              url: about/
+            - name: Experience
+              url: experience/
+            - name: Education
+              url: education/
+            - name: Projects
+              url: projects/
 
     socialIcons:
         - name: CV
-          url: cv.pdf
+          url: nadun cv.pdf
         - name: Email
-          url: mailto:user@gmail.com
-        - name: Zoom
-          url: https://www.zoom.us/my/user
+          url: nadunnanayakkara19@gmail.com
+        - name: GitHub
+          url: https://github.com/nadunnanayakkara
         - name: Location
           url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=user
-        - name: GitHub
-          url: https://github.com/user
-        - name: YouTube
-          url: https://www.youtube.com/@user
-        - name: Substack
-          url: https://user.substack.com
-        - name: Twitter
-          url: https://x.com/user
-        - name: Bluesky
-          url: https://bsky.app/profile/user.bsky.social
 
     assets:
         disableScrollBarStyle: true
@@ -105,7 +82,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Nadun Nanayakkara"
       icon: favicon.ico
       iconHeight: 18
 
